@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+/* common styles  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --primaryColor: #fd6e0a;
+}
+.primary-color {
+  color: var(--primaryColor);
+}
+.btn-primary {
+  border-radius: 5px;
+  background: var(--primaryColor);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+  border: none;
+  outline: none;
+}
+
+/* header  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 200px;
+}
+nav h3 {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+}
+
+/* header related styles  */
+.header {
+  padding-top: 50px;
+  background: #fff8f3;
+  background-image: url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  padding: 30px 30px 0px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+}
+.banner-title {
+  color: black;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+
+  margin-bottom: 30px;
+}
+.banner .profile-pic {
+  width: 500px;
+}
