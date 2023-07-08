@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-/* common styles  */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
-
+/* common shared styles  */
 :root {
   --primaryColor: #fd6e0a;
 }
@@ -22,6 +22,19 @@
   padding: 15px 35px;
   border: none;
   outline: none;
+}
+.section-title {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin-block: 30px;
 }
 
 /* header  */
@@ -86,4 +99,70 @@ nav ul a {
 }
 .banner .profile-pic {
   width: 500px;
+}
+
+/* main section styles  */
+
+/* about section styles  */
+main {
+  max-width: 1140px;
+  margin-inline: auto;
+}
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  margin-block: 130px;
+  padding: 130px 156px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-info {
+  text-align: center;
+}
+.info-title {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.info-description {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* what i do  */
+.what-i-do {
+  margin-bottom: 130px;
+}
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+}
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+  padding: 30px 33px;
+}
+.skill-title {
+  margin-block: 20px;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
